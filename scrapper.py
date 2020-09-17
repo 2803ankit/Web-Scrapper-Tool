@@ -27,7 +27,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
 
-    server.login('ankitkanojiya3103@gmail.com','nnreznsueplqvztq')
+    server.login('ankitjnv1998@gmail.com','nnreznsueplqvztq')
 
     subject = 'price within budget'
     body = 'checkout the link https://www.amazon.in/Samsung-Galaxy-Storage-Additional-Exchange/dp/B07KXCK8S6/ref=lp_21837417031_1_1?s=electronics&ie=UTF8&qid=1597426596&sr=1-1'
@@ -35,8 +35,8 @@ def send_mail():
     msg= f"Subject: {subject}\n\n{body}"
 
     server.sendmail(
-        'ankitkanojiya3103@gmail.com',
-        'iamkanojiya@gmail.com',
+        'ankitjnv1998@gmail.com',
+        'ankittrpathi28@gmail.com',
         msg
     )
 
